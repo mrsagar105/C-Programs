@@ -31,7 +31,7 @@ int main()
         }
     }
 
-    // displaying all elements of 2D array. From sum[0][0] to sum[3][3]
+    // displaying all elements of array sum. From sum[0][0] to sum[3][3]
     printf("Sum of matrix A and B:\n");
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 3; j++) {
