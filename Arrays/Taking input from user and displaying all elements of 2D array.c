@@ -15,8 +15,9 @@ int main()
     // displaying all elements of 2D array. From a[0][0] to a[2][4]
     for(int i = 0; i < 2; i++) {
         for(int j = 0; j < 4; j++) {
-            printf("Row %d and Column %d: %d \n", i+1, j+1, a[i][j]);
+            printf("%d ", a[i][j]);
         }
+        printf("\n"); // prints a new line after every row
     }
 
     return 0;
