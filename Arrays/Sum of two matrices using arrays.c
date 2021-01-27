@@ -16,7 +16,7 @@ int main()
     }
 
     // taking input from user for Matrix B
-    printf("For 3x3 matrix B:\n");
+    printf("\nFor 3x3 matrix B:\n");
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 3; j++) {
             printf("Enter b[%d][%d] = ", i+1, j+1);
@@ -32,7 +32,7 @@ int main()
     }
 
     // displaying all elements of array sum. From sum[0][0] to sum[3][3]
-    printf("Sum of matrix A and B:\n");
+    printf("\nSum of matrix A and B:\n");
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 3; j++) {
             printf("%d ", sum[i][j]);
