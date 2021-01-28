@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a[6] = {1, 2, 3, 4, 5, 6};
+    int a[] = {1, 2, 3, 4, 5, 6};
 
     // as array 'a' is of integer type
     printf("sizeof a[0]: %d\n", sizeof(a[0])); // 4
