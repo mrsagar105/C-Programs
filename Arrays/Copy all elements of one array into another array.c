@@ -4,7 +4,7 @@ int main()
 {
     int array1[] = {1, 2, 3, 4, 5};
 
-    int length = sizeof(array1)/sizeof(array1[0]); // calculates the size af first array
+    int length = sizeof(array1)/sizeof(array1[0]); // calculates the size of first array
     int array2[length]; // declaring second array of same size
 
     // Copy elements of first array into second array
