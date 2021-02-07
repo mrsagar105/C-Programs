@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // bubble sort function
-int bubbleSort(int *a, int size)
+void bubbleSort(int *a, int size)
 {
     int temp;
 
