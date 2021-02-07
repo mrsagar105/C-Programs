@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 // bubble sort function
-void bubbleSort(int *a, int size)
+void bubbleSort(int array[], int size)
 {
     int temp;
 
     for(int i = 0; i < size-1; i++) {
         for(int j = 0; j < size-1-i; j++) {
-            if(a[j] > a[j + 1]) {
-                temp = a[j];
-                a[j] = a[j + 1];
-                a[j + 1] = temp;
+            if(array[j] > array[j + 1]) {
+                temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
             }
         }
     }
@@ -37,6 +37,7 @@ int main()
     }
     
     // function for sorting array
+    // passing base address of array 'a'
     bubbleSort(a, size);
 
     // printing sorted array
