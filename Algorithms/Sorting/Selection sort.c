@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // selection sort function
-int selectionSort(int *a, int size)
+void selectionSort(int *a, int size)
 {
     int temp;
 
