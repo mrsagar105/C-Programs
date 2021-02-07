@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 // selection sort function
-void selectionSort(int *a, int size)
+void selectionSort(int array[], int size)
 {
     int temp;
 
     for(int i = 0; i < size; i++) {
         for(int j = i + 1; j < size; j++) {
-            if(a[j] < a[i]) {
-                temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+            if(array[j] < array[i]) {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
     }
@@ -37,6 +37,7 @@ int main()
     }
     
     // function for sorting array
+    // passing base address of array 'a'
     selectionSort(a, size);
 
     // printing sorted array
