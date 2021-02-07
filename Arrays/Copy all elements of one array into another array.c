@@ -3,9 +3,9 @@
 int main()
 {
     int array1[] = {1, 2, 3, 4, 5};
+    int array2[100];
 
-    int length = sizeof(array1)/sizeof(array1[0]); // calculates the size of first array
-    int array2[length]; // declaring second array of same size
+    int length = sizeof(array1)/sizeof(array1[0]); // calculates the size of array1
 
     // Copy elements of first array into second array
     for(int i = 0; i < length; i++) {
