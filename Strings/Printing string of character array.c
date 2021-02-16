@@ -5,7 +5,7 @@ int main()
     char a[] = "Hello";
 
     // points to the 1st character of string
-    prints until it reaches the NULL character '\n'
+    // prints until it reaches the NULL character '\n'
     printf("%s\n", a); // Hello
 
     // points to the 1st character of string + 1 i.e 2nd
