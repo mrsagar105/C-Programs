@@ -10,7 +10,7 @@ int main()
     for(i = 0; a[i] != '\0'; i++) {
         b[i] = a[i];
     }
-    b[i] = '\0';
+    b[i] = '\0'; // adds null character at the end
 
     printf("%s", b);
     return 0;
