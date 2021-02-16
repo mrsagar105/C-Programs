@@ -17,5 +17,11 @@ int main()
     // prints the first 3 characters
     printf("%.3s", a); // Hel
 
+    // puts()
+    // Same as printf() function.
+    // Does not require %s.
+    // Automatically adds a new line character.
+    puts(a); // Hello
+
     return 0;
 }
